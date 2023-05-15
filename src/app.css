@@ -35,3 +35,34 @@
         transform: scale(1);
     }
 }
+
+.main-container {
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.left-container {
+    background: #E0DCDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container div {
+    width: 100vh;
+}
+
+.container-inputs {
+    margin-top: 20%;
+    margin-left: 10%;
+}
+
+h2 {
+    color: #33FF73;
+    margin-left: 50px;
+}
